@@ -112,6 +112,17 @@ const Home = () => {
           className='w-10 h-10 cursor-pointer object-contain'
         />
       </div>
+      <iframe
+  style={{ borderRadius: '12px' }}
+  src="https://open.spotify.com/embed/album/6DNUNY6wAGp7h5UlsedMeq?utm_source=generator"
+  width="100%"
+  height="352"
+  frameBorder="0"
+  allowFullScreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+></iframe>
+
     </section>
   );
 };

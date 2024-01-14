@@ -7,7 +7,7 @@ Title: 小王子  Le Petit Prince
 */
 import { a } from "@react-spring/three";
 import React, { useEffect, useRef } from "react";
-import { useGLTF } from "@react-three/drei";
+import { useGLTF, OrbitControls } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import princePlanetScene from "../assets/3d/prince_planet.glb";
 
@@ -180,126 +180,116 @@ export function PrincePlanet({
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_1.geometry}
+          geometry={nodes.Material2001.geometry}
           material={materials.Translucent_Glass_Gray}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_2.geometry}
+          geometry={nodes.Material2002.geometry}
           material={materials["0007_MistyRose"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_3.geometry}
+          geometry={nodes.Material2003.geometry}
           material={materials.material}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_4.geometry}
+          geometry={nodes.Material2004.geometry}
           material={materials["13_obj"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_5.geometry}
-          material={materials["Dosch-Space_0019-thumb.jpg"]}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Material2_6.geometry}
+          geometry={nodes.Material2006.geometry}
           material={materials["PM3D_Cube3D2.005"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_7.geometry}
+          geometry={nodes.Material2007.geometry}
           material={materials.PolySphere2}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_8.geometry}
+          geometry={nodes.Material2008.geometry}
           material={materials["02_copy4_1.002"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_9.geometry}
+          geometry={nodes.Material2009.geometry}
           material={materials["02_10.002"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_10.geometry}
+          geometry={nodes.Material2010.geometry}
           material={materials["PM3D_Sphere3D1.002"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_11.geometry}
+          geometry={nodes.Material2011.geometry}
           material={materials["PM3D_Sphere3D1.002"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_12.geometry}
+          geometry={nodes.Material2012.geometry}
           material={materials.PolySphere2_9}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_13.geometry}
+          geometry={nodes.Material2013.geometry}
           material={materials["PM3D_Cylinder3D1.002"]}
-        />
-        <lineSegments
-          geometry={nodes.Material3.geometry}
-          material={materials.edge_color000255}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_14.geometry}
+          geometry={nodes.Material2014.geometry}
           material={materials["02_copy4.003"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_15.geometry}
+          geometry={nodes.Material2015.geometry}
           material={materials["02_07.002"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_16.geometry}
+          geometry={nodes.Material2016.geometry}
           material={materials["12_02"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_17.geometry}
+          geometry={nodes.Material2017.geometry}
           material={materials["02_copy4_2"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_18.geometry}
+          geometry={nodes.Material2018.geometry}
           material={materials["12_01"]}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material3_1.geometry}
-          material={materials["02_copy4_2_0"]}
+          geometry={nodes.Material2019.geometry}
+          material={materials.Material__20}
         />
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.Material2_19.geometry}
-          material={materials.Material__20}
+          geometry={nodes.Material3001.geometry}
+          material={materials["02_copy4_2_0"]}
         />
       </a.group>
     </a.group>
