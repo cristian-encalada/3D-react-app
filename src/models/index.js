@@ -1,5 +1,5 @@
-export { Sky } from "./Sky";
+// export { Sky } from "./Sky";
 export { Bird } from './Bird'
 export { Plane } from "./Plane";
-export { Island } from "./Island";
+export { PrincePlanet } from "./princePlanet.jsx";
 export { Fox } from "./Fox";
