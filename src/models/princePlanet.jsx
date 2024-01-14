@@ -123,7 +123,7 @@ export function PrincePlanet({
         rotationSpeed.current = 0;
       }
 
-      planetRef.current.rotation.x += rotationSpeed.current;
+      planetRef.current.rotation.y += rotationSpeed.current;
     } else {
       // When rotating, determine the current stage based on planet's orientation
       const rotation = planetRef.current.rotation.y;

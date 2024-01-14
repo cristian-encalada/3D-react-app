@@ -1,13 +1,13 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
-import sakura from "../assets/sakura.mp3";
+import Somewhere_only_we_know from "../assets/Somewhere_only_we_know-Lily_Allen.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Sky, PrincePlanet, Plane } from "../models";
 
 const Home = () => {
-  const audioRef = useRef(new Audio(sakura));
+  const audioRef = useRef(new Audio(Somewhere_only_we_know));
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
 
@@ -109,20 +109,9 @@ const Home = () => {
           src={!isPlayingMusic ? soundoff : soundon}
           alt='jukebox'
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
-          className='w-10 h-10 cursor-pointer object-contain'
+          className='w-16 h-16 cursor-pointer object-contain'
         />
       </div>
-      <iframe
-  style={{ borderRadius: '12px' }}
-  src="https://open.spotify.com/embed/album/6DNUNY6wAGp7h5UlsedMeq?utm_source=generator"
-  width="100%"
-  height="352"
-  frameBorder="0"
-  allowFullScreen
-  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-  loading="lazy"
-></iframe>
-
     </section>
   );
 };

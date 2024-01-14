@@ -8,20 +8,24 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
-          Projects
+          Soundtrack
         </span>
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        The Motion animation's soundtrack is collection is available for free on Spotify.
       </p>
-
+      <iframe
+        style={{ borderRadius: '12px' }}
+        src="https://open.spotify.com/embed/album/6DNUNY6wAGp7h5UlsedMeq?utm_source=generator"
+        width="100%"
+        height="500"
+        frameBorder="0"
+        allowFullScreen
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
       <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
@@ -60,6 +64,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+
 
       <hr className='border-slate-200' />
 
