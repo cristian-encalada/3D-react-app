@@ -8,16 +8,16 @@ const Soundtrack = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        <span className='blue-gradient_text drop-shadow font-semibold'>
+        <span className='yellow-gradient_text drop-shadow font-semibold'>
           Soundtrack
         </span>
       </h1>
 
-      <p className='text-slate-500 mt-2 leading-relaxed'>
+      {/* <p className='text-slate-500 mt-2 leading-relaxed'>
         The Motion animation's soundtrack is collection is available for free on Spotify.
-      </p>
+      </p> */}
       <iframe
-        style={{ borderRadius: '12px' }}
+        style={{ borderRadius: '12px', marginTop: '20px' }}
         src="https://open.spotify.com/embed/album/6DNUNY6wAGp7h5UlsedMeq?utm_source=generator"
         width="100%"
         height="500"
@@ -26,7 +26,7 @@ const Soundtrack = () => {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>
-      <div className='flex flex-wrap my-20 gap-16'>
+      {/* <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
@@ -63,11 +63,7 @@ const Soundtrack = () => {
             </div>
           </div>
         ))}
-      </div>
-
-
-      <hr className='border-slate-200' />
-
+      </div> */}
       <CTA />
     </section>
   );
