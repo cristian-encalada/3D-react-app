@@ -16,6 +16,9 @@ export default {
         },
         blue: {
           500: "#2b77e7"
+        },
+        yellow: {
+          500: "#FFF37C"
         }
       },
       fontFamily: {
