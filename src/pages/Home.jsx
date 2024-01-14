@@ -4,7 +4,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import sakura from "../assets/sakura.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
-import { Bird, PrincePlanet, Plane } from "../models";
+import { Sky, PrincePlanet, Plane } from "../models";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -85,8 +85,8 @@ const Home = () => {
             intensity={1}
           />
 
-          <Bird />
-          {/* <Sky isRotating={isRotating} /> */}
+          {/* <Bird /> */}
+          { <Sky isRotating={isRotating} /> }
           <PrincePlanet
             isRotating={isRotating}
             setIsRotating={setIsRotating}
