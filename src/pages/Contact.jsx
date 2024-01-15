@@ -116,7 +116,7 @@ const Contact = () => {
               name='message'
               rows='4'
               className='textarea'
-              placeholder='Any project idea? or just want to say hello? Go ahead!'
+              placeholder='Any new project? ...ideas? ...suggestions? ...or just want to say hello? Go ahead!'
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}

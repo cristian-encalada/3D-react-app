@@ -1,6 +1,6 @@
 import Home from './Home';
-import About from './About';
+import Trailer from './Trailer';
 import Soundtrack from './Soundtrack';
 import Contact from './Contact';
 
-export { Home, About, Soundtrack, Contact};
+export { Home, Trailer, Soundtrack, Contact};

@@ -19,7 +19,7 @@ const HomeInfo = ({ currentStage }) => {
          A stop-motion/CGI adaptation was released on 2015, <br /> based on the novella by Antoine de Saint-Exupéry.
         </p>
 
-        <Link to='/about' className='neo-brutalism-white neo-btn'>
+        <Link to='/trailer' className='neo-brutalism-white neo-btn'>
           Watch trailer
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
