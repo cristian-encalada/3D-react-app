@@ -111,7 +111,7 @@ const Home = () => {
         />
       </div>
       <div className='absolute bottom-5 right-5'>
-        <a href="https://github.com/cristian-encalada/3D-react-app/tree/v.1.0" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/cristian-encalada/3D-react-app" target="_blank" rel="noopener noreferrer">
           <img
             src={github}
             alt='github'
