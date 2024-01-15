@@ -1,9 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -12,15 +9,12 @@ import {
     linkedin,
     mongodb,
     motion,
-    mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
     snapgram,
-    summiz,
     tailwindcss,
     threads,
     typescript
@@ -68,11 +62,6 @@ export const skills = [
         type: "Animation",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -113,7 +102,7 @@ export const experiences = [
     {
         title: "React.js Developer",
         company_name: "Starbucks",
-        icon: starbucks,
+        icon: null,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
@@ -126,7 +115,7 @@ export const experiences = [
     {
         title: "React Native Developer",
         company_name: "Tesla",
-        icon: tesla,
+        icon: null,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -139,7 +128,7 @@ export const experiences = [
     {
         title: "Web Developer",
         company_name: "Shopify",
-        icon: shopify,
+        icon: null,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
         points: [
@@ -152,7 +141,7 @@ export const experiences = [
     {
         title: "Full stack Developer",
         company_name: "Meta",
-        icon: meta,
+        icon: null,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
