@@ -8,7 +8,10 @@ const HomeInfo = ({ currentStage }) => {
       <h1 className='sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5'>
         "It is only with the heart that one can see clearly. What is essential is invisible to the eye."
         <br />
-        <span className='font-semibold mx-2 text-white'>The Little Prince</span>
+        <span className='font-semibold mx-2  mb-8 text-white'>The Little Prince</span>
+        <div className='sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5'>
+          <span className='mr-2'>👉</span> Drag to explore
+        </div>
       </h1>
     );
 

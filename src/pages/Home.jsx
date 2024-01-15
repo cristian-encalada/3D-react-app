@@ -1,9 +1,8 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
-
 import Somewhere_only_we_know from "../assets/Somewhere_only_we_know-Lily_Allen.mp3";
 import { HomeInfo, Loader } from "../components";
-import { soundoff, soundon } from "../assets/icons";
+import { soundoff, soundon, github } from "../assets/icons";
 import { Sky, PrincePlanet, Plane } from "../models";
 
 const Home = () => {
@@ -62,7 +61,6 @@ const Home = () => {
       <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
-
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
@@ -86,7 +84,7 @@ const Home = () => {
           />
 
           {/* <Bird /> */}
-          { <Sky isRotating={isRotating} /> }
+          <Sky isRotating={isRotating} /> 
           <PrincePlanet
             isRotating={isRotating}
             setIsRotating={setIsRotating}
@@ -111,6 +109,15 @@ const Home = () => {
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className='w-16 h-16 cursor-pointer object-contain'
         />
+      </div>
+      <div className='absolute bottom-5 right-5'>
+        <a href="https://github.com/cristian-encalada/3D-react-app/tree/v.1.0" target="_blank" rel="noopener noreferrer">
+          <img
+            src={github}
+            alt='github'
+            className='w-12 h-12 cursor-pointer object-contain bg-white rounded-full'
+          />
+        </a>
       </div>
     </section>
   );
