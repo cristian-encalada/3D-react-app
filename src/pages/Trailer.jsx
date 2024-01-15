@@ -14,7 +14,7 @@ const Trailer = () => {
         </span>
       </h1>
 
-      <div className='mt-5 text-yellow-500 justify-center items-center'>
+      <div className='flex flex-col mt-5 text-yellow-500 justify-center'>
         <p className="mb-5">
           The film relates the story of a young girl who has just met the book's 
           now-elderly aviator narrator, who tells her the story of his meeting 

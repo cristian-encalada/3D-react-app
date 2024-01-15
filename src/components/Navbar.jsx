@@ -4,10 +4,14 @@ import { princeLogo } from "../assets/icons";
 function Navbar() {
   return (
     <header className="header">
-        <NavLink to="/" className="w-40 h-10 rounded-lg items-center justify-center flex font-bold shadow-md">
-            <img src={princeLogo} alt="Home_Logo" className="w-12 h-12" />
+        <NavLink to="/">
+        <img
+        src={princeLogo}
+        alt="Home_Logo"
+        className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24"
+        />
         </NavLink>
-        <nav className="flex text-lg gap-5 font-medium">
+        <nav className="flex text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl gap-3 font-medium">
             <NavLink to="/trailer" className={({ isActive}) => isActive ?
             'text-yellow-500' : 'text-white' }>
                 Trailer
