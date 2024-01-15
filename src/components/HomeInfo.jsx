@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <br />
         <span className='font-semibold mx-2  mb-8 text-white'>The Little Prince</span>
         <div className='sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5'>
-          <span className='mr-2'>👉</span> Drag to explore
+          <span className='mr-2'>👈</span> Drag to explore <span className='mr-2'>👉</span>
         </div>
       </h1>
     );
