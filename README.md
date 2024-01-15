@@ -1,13 +1,9 @@
-# React + Vite
+# 3D Web app using React and Three.js.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![3D web app - Demo](./public/3D-page-demo.gif)
 
 
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
+### Tribute to the novella `"The Little Prince"` by Antoine de Saint-Exupéry
+
+__Inspred on:__ [JavaScript Mastery](https://www.youtube.com/watch?v=FkowOdMjvYo)
+
