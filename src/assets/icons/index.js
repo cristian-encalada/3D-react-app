@@ -22,6 +22,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import princeLogo from './princeLogo.png';
+import swipe from './swipe.gif';
 
 export {
     css,
@@ -48,4 +49,5 @@ export {
     soundon,
     soundoff,
     princeLogo,
+    swipe,
 }

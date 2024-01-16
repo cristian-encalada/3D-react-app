@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-
 import { arrow } from "../assets/icons";
+import { swipe } from "../assets/icons";
 
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
@@ -10,7 +10,14 @@ const HomeInfo = ({ currentStage }) => {
         <br />
         <span className='font-semibold mx-2  mb-8 text-white'>The Little Prince</span>
         <div className='sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5'>
-          <span className='mr-2'>👈</span> Drag to explore <span className='mr-2'>👉</span>
+          <div className='flex items-center justify-center'>
+            <img
+              src={swipe}
+              alt="swipe image"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-12 lg:h-12 xl:w-12 xl:h-12"
+            />
+            <span className='ml-2'>Swipe to explore</span>
+          </div>
         </div>
       </h1>
     );

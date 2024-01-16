@@ -8,10 +8,10 @@ function Navbar() {
         <img
         src={princeLogo}
         alt="Home_Logo"
-        className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24"
+        className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-18 xl:h-18"
         />
         </NavLink>
-        <nav className="flex text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl gap-3 font-medium">
+        <nav className="flex text-base sm:text-lg md:text-lg lg:text-xl xl:text-xl gap-3 font-medium">
             <NavLink to="/trailer" className={({ isActive}) => isActive ?
             'text-yellow-500' : 'text-white' }>
                 Trailer
