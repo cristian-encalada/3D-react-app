@@ -8,7 +8,7 @@ const Soundtrack = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        <span className='yellow-gradient_text drop-shadow font-semibold'>
+        <span className='text-yellow-500 drop-shadow font-semibold'>
           Soundtrack
         </span>
       </h1>

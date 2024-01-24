@@ -2,7 +2,6 @@ import { Route, BrowserRouter as Router, Routes} from
 'react-router-dom';
 import { Home, Trailer, Soundtrack, Contact} from './pages'
 import Navbar from './components/Navbar';
-import { StarsCanvas } from "./models";
 
 const App = () => {
   return (

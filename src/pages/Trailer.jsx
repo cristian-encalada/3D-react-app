@@ -9,12 +9,12 @@ const Trailer = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        <span className='yellow-gradient_text font-semibold drop-shadow'>
+        <span className='text-yellow-500 font-semibold drop-shadow'>
           The Little Prince (2015 film)
         </span>
       </h1>
 
-      <div className='flex flex-col mt-5 text-yellow-500 justify-center'>
+      <div className='flex flex-col mt-5 text-white justify-center'>
         <p className="mb-5">
           The film relates the story of a young girl who has just met the book's 
           now-elderly aviator narrator, who tells her the story of his meeting 

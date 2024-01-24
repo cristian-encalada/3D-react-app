@@ -44,7 +44,7 @@ const HomeInfo = ({ currentStage }) => {
           A complete soundtrack collection of the movie is available on Spotify for free.
         </p>
 
-        <Link to='/projects' className='neo-brutalism-white neo-btn'>
+        <Link to='/sountrack' className='neo-brutalism-white neo-btn'>
           Listen to it now!
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
